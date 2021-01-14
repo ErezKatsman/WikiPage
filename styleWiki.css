@@ -5,6 +5,15 @@
   --main-gray: #747474;
 }
 
+@media (max-width: 790px) {
+  .topnav {
+    flex-direction: column;
+  }
+  #logo {
+    width: auto;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -155,4 +164,7 @@ input[type="button"]:hover {
   text-align: left;
   background-color: #4caf50;
   color: white;
+}
+
+#media-second-div {
 }
