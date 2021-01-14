@@ -1,7 +1,7 @@
 :root {
   --main-white: #f0f0f0;
   --main-red: #e80000;
-  --main-blue: #45567d;
+  --main-blue: #8babf5;
   --main-gray: #747474;
 }
 
@@ -28,6 +28,7 @@ body {
   display: flex;
   position: fixed;
   width: 100%;
+  z-index: 99;
 }
 
 .topnav a {
@@ -66,8 +67,8 @@ body {
   vertical-align: middle;
   line-height: 80px;
   text-align: center;
-  height: 25%;
-  width: 30%;
+  height: 240px;
+  width: 500px;
   opacity: 0.75;
   border-radius: 10px;
 }
@@ -97,9 +98,14 @@ input[type="button"]:hover {
   padding: 10px;
 }
 
+.linkTo {
+  color: black;
+  font-weight: bolder;
+}
+
 .indexPage {
   background-color: var(--main-gray);
-  height: 90vh;
+  padding-bottom: 30px;
 }
 
 .pIndex {
@@ -108,4 +114,46 @@ input[type="button"]:hover {
   padding: 0px 25px;
   font-size: large;
   font-weight: 500;
+}
+
+#media-first-div {
+  margin-top: 90px;
+  background-image: url(img/winner.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 90px;
+}
+
+#medaliests {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#medaliests td,
+#medaliests th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#medaliests tr {
+  background-color: #f2f2f2d2;
+}
+
+#medaliests tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#medaliests tr:hover {
+  background-color: #ddd;
+}
+
+#medaliests th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
 }
