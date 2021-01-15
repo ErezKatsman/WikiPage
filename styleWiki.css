@@ -17,6 +17,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -105,6 +106,7 @@ input[type="button"]:hover {
   font-family: fantasy;
   color: var(--main-red);
   padding: 10px;
+  -webkit-text-stroke: 2px black;
 }
 
 .linkTo {
@@ -167,4 +169,23 @@ input[type="button"]:hover {
 }
 
 #media-second-div {
+  background-color: var(--main-gray);
+  padding: 1em;
+}
+
+.container-media {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.5em;
+}
+
+.photos {
+  flex: 1 1 100%;
+  padding: 0.5em;
+}
+
+.photos-inner {
+  background-size: cover;
+  background-image: url("img/logoPage.jpg");
+  padding-top: calc(100% / (16 / 9));
 }
