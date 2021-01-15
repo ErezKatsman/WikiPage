@@ -186,6 +186,68 @@ input[type="button"]:hover {
 
 .photos-inner {
   background-size: cover;
-  background-image: url("img/logoPage.jpg");
+  background-image: url("img/1.jfif");
   padding-top: calc(100% / (16 / 9));
+}
+
+.photos:nth-child(2) .photos-inner {
+  background-image: url("img/2.jfif");
+}
+
+.photos:nth-child(3) .photos-inner {
+  background-image: url("img/3.jfif");
+}
+
+.photos:nth-child(4) .photos-inner {
+  background-image: url("img/4.jfif");
+}
+
+.photos:nth-child(5) .photos-inner {
+  background-image: url("img/5.jfif");
+}
+
+.photos:nth-child(6) .photos-inner {
+  background-image: url("img/6.jfif");
+}
+
+.photos:nth-child(7) .photos-inner {
+  background-image: url("img/7.jfif");
+}
+
+.photos:nth-child(8) .photos-inner {
+  background-image: url("img/8.jfif");
+}
+
+.photos:nth-child(9) .photos-inner {
+  background-image: url("img/9.jfif");
+}
+
+.photos:nth-child(10) .photos-inner {
+  background-image: url("img/10.jfif");
+}
+
+.photos:nth-child(11) .photos-inner {
+  background-image: url("img/11.jfif");
+}
+
+.photos:nth-child(12) .photos-inner {
+  background-image: url("img/12.jfif");
+}
+
+@media screen and (min-width: 480px) {
+  .photos {
+    flex: 1 1 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .photos {
+    flex: 1 1 33.333%;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .photos {
+    flex: 1 1 25%;
+  }
 }
