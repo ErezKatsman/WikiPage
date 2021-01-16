@@ -414,3 +414,22 @@ input[type="submit"]:hover {
   background: #7bbb5e;
   color: #fff;
 }
+.ek-title {
+  color: #fff;
+  text-align: center;
+  font-size: 5.5em;
+  font-family: "Satisfy", cursive;
+}
+.icons-div {
+  display: flex;
+  justify-content: space-around;
+}
+.icons-div i {
+  font-family: FontAwesome;
+  font-style: normal;
+  color: #fff;
+  margin-right: 20px;
+}
+.icons-div i:hover {
+  color: var(--main-red);
+}
