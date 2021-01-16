@@ -13,14 +13,18 @@
     width: auto;
   }
   .div-info {
-    margin-top: 70px;
+    padding-top: 480px;
   }
   #media-title {
-    padding-top: 250px;
+    padding-top: 300px;
   }
 
   #main-div-product {
     padding-top: 350px;
+  }
+
+  #background {
+    height: 800px;
   }
 }
 
@@ -279,7 +283,7 @@ input[type="button"]:hover {
 
 .div-page-contact {
   background-color: var(--main-gray);
-  position: fixed;
+  padding-bottom: 20px;
 }
 
 .contact-first-div {
